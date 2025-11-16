@@ -1,0 +1,33 @@
+.main{
+    position: relative;
+    // margin-top: 50vh;
+    background-color: black;
+    padding-bottom: 100vh; // Add space for footer to appear after all cards scroll
+    
+    h1 {
+      padding-top: 60px;
+      padding-bottom: 40px;
+      
+      @media (max-width: 768px) {
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      
+      @media (max-width: 480px) {
+        padding-top: 30px;
+        padding-bottom: 20px;
+      }
+    }
+    
+    // Mobile adjustments
+    @media (max-width: 768px) {
+      padding: 0 10px;
+      padding-bottom: 50vh; // Less space needed on mobile
+    }
+    
+    @media (max-width: 480px) {
+      padding: 0 5px;
+      padding-bottom: 40vh;
+    }
+  }
+
