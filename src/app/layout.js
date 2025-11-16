@@ -32,7 +32,7 @@ const lusitana = localFont({
 
 // Pacifico font
 const pacifico = localFont({
-  src: "../../public/fonts/Pacifico/Pacifico.ttf",
+  src: "../../public/fonts/pacifico/Pacifico.ttf",
   variable: "--font-pacifico",
   weight:"200"
 });
