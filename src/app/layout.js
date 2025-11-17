@@ -3,6 +3,7 @@ import "./globals.css";
 import NavbarWrapper from "@/homePage-components/navComponent";
 import "./globals.css";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next"
 
 const eduCursive = localFont({
   src: [
@@ -73,6 +74,7 @@ export default function RootLayout({ children }) {
       <body className="flex flex-col justify-between antialiased">
         <NavbarWrapper />
         <main className="flex-1">{children}</main>
+         <Analytics />
       </body>
     </html>
   );
