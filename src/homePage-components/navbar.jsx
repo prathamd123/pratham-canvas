@@ -240,7 +240,7 @@ const Navbar = () => {
             </div>
 
             <Link
-              href="https://cal.com/pratham01"
+              href="https://linktr.ee/prathamd123"
               target="_blank"
               className="hidden md:flex"
             >
