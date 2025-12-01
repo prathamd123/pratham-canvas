@@ -13,6 +13,7 @@ export default async function Home() {
         <Third />
         <Card />
         <Footer />  
+        {/* test comment */}
       </div>
     
   );
