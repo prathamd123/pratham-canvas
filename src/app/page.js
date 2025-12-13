@@ -7,7 +7,7 @@ import Footer from '@/footer/footer'
 export default async function Home() {
   return (
       <div className='font-poppins' id="home">
-        {/* test comment */}
+        {/* test comment 1 */}
         <SplashCursor />
         <NewStarCanvas/> 
         <Second />
