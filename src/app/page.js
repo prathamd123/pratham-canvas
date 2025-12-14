@@ -4,17 +4,17 @@ import Third from '@/homePage-components/third'
 import SplashCursor from '@/homePage-components/splashCursor'
 import Card from '@/components/Card'
 import Footer from '@/footer/footer'
+import TimeLine from '@/components/timeline/TimeLine'
 export default async function Home() {
   return (
       <div className='font-poppins' id="home">
-        {/* test comment 1 */}
         <SplashCursor />
         <NewStarCanvas/> 
         <Second />
         <Third />
+        <TimeLine />
         <Card />
         <Footer />  
-        {/* test comment */}
       </div>
     
   );

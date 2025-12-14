@@ -9,14 +9,13 @@ const eduCursive = localFont({
   src: [
     {
       path: "../../public/fonts/Edu_NSW_ACT_Cursive/EduNSWACTCursive-VariableFont_wght.ttf",
-      weight: "100 900", // variable font range
+      weight: "100 900", 
     },
   ],
   variable: "--font-edu-cursive",
 });
 
 
-// Lusitana font
 const lusitana = localFont({
   src: [
     {
@@ -31,7 +30,6 @@ const lusitana = localFont({
   variable: "--font-lusitana",
 });
 
-// Pacifico font
 const pacifico = localFont({
   src: "../../public/fonts/pacifico/Pacifico.ttf",
   variable: "--font-pacifico",
@@ -79,20 +77,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en">
-//       <body
-//         className={`flex flex-col justify-between antialiased`}
-//       >
-//         <NavbarWrapper />
-//           <main className="flex-1">
-//         {children}
-//         </main>
-//         {/* <Footer /> */}
-//         {/* <Analytics /> */}
-//       </body>
-//     </html>
-//   );
-// }
-
