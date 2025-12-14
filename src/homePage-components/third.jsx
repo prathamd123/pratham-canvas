@@ -91,7 +91,7 @@ const Third = () => {
       </h1>
 
       {/* CONTENT GRID */}
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+      <div className="mt-20 mb-0 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
 
         <div ref={aboutRef}>
           <h2 className="text-3xl font-semibold mb-4">About Me</h2>
